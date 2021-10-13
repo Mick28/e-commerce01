@@ -1,4 +1,28 @@
+/* Estilos o Normas a la hora de crear CSS: Módulos, BEM, SMACS */
+
+/* Especificidad en CSS
+    0 0 0 2 => Etiqueta, es el selector más débil.
+    0 0 1 1 => Para . clases
+    0 1 0 1 => Para # ID´s son más pesados y lentos que los anteriores.
+    1 0 0 0 => Para !Important
+ */
+
+ /* nav a:nth-child(1){
+    text-transform: uppercase;
+    font-size: 18px;
+} */
+
 h2 {
     font-size: 20px;
-    color: green;
+    color: #037bc0;
+}
+
+.navegacion {
+
+}
+.enlace {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #037bc0;
 }
