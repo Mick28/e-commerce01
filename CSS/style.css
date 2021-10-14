@@ -7,22 +7,22 @@
     1 0 0 0 => Para !Important
  */
 
- /* nav a:nth-child(1){
-    text-transform: uppercase;
-    font-size: 18px;
-} */
-
-h2 {
-    font-size: 20px;
-    color: #037bc0;
+/* Sniped de Paul Irish para aplicar Border-sizing a todos los elementos*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
-.navegacion {
 
-}
-.enlace {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    color: #037bc0;
-}
+ .nombre-sitio span {
+     color: #037bc0;
+ }
+
+ .sobre-nosotros {
+     background-color: rgb(224, 102, 163);
+     width: 200px;
+     padding: 25px;
+     box-sizing: content-box;
+ }
