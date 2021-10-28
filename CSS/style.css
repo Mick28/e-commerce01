@@ -35,6 +35,11 @@ a {
 
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* Header y Navegación */
 .nobmre-sitio {
     margin-top: 50px;
@@ -54,6 +59,8 @@ a {
      /* padding-top: 20px;
      padding-bottom: 20px; */   /* Lo mismo con la siguiente línea*/
      padding: 20px 0;
+     display: flex;
+     justify-content: space-between;
  }
 
  .hero {
@@ -64,15 +71,26 @@ a {
      
  }
 
- /* Box Model */
- .sobre-nosotros {
-     background-color: rgb(224, 102, 163);
-     width: 200px;
-     padding: 25px;
+ /* Categorias */
+ .categorias h2 {
+     text-align: center;
+ }
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
 }
-
-.sobre-empresa {
-    background-color: blue;
-    width: 500px;
-    padding: 100px;
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #FFFFFF;
+    border-bottom-right-radius: 10px;
+}
+ 
+.listado-categorias {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px; */ /* Ahora escribimos la forma corta */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+    gap: 20px;
 }
