@@ -89,6 +89,18 @@ img {
     max-width: 100%; /* Esto es relativo al elemento padre, en este caso un div o el mismo body */
     display: block;
 }
+.btn {
+    background-color: #8cbc00;
+    display: block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-in-out;
+}
+.btn:hover {
+    background-color: #769c02;
+}
 
 /* Utilidades */
 .text-center {
@@ -137,6 +149,7 @@ img {
     text-align: center;
     display: block;
     padding: 2rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
 }
 .categoria a:hover {
@@ -182,6 +195,7 @@ img {
 .texto-producto {
     text-align: center;
     color: #FFFFFF;
+    padding: 2rem;
 }
 .texto-producto h3 {
     margin: 0;
