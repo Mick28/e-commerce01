@@ -35,13 +35,13 @@
     <main class="contenido-principal contenedor">
         <h2 class="text-center">Contacto</h2>
 
-        <form action="">
+        <form action="#">   <!-- Aquí, entre las commilas estaría la URL al que se enviaría el Form -->
             <fieldset>
                 <legend>Tus Datos</legend>
 
                 <div class="campo">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" placeholder="Tu nombre" id="nombre">
+                    <input type="text" placeholder="Tu nombre" id="nombre" required>
                 </div>
 
                 <div class="campo">
@@ -113,6 +113,10 @@
                 </div>
 
             </fieldset>
+
+            <input type="submit" value="Enviar Formulario">
+            <!-- <button type="submit">Enviar Formulario</button> -->
+
         </form>
 
     </main>
